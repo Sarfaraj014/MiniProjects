@@ -9,6 +9,6 @@ personNo=int(input("Number of person to devide the amount : "))
 electricityExpences=unitcharge*spendUnit
 totalAmount=(Rent + electricityExpences)/personNo
 
-#how we will print the final output
+#print the final output
 
 print(f"Each will pay = {str(totalAmount)}")
